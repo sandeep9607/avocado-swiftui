@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		470DCA222A5FFB2600E231A0 /* RipeningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470DCA212A5FFB2600E231A0 /* RipeningView.swift */; };
+		470DCA242A6002F500E231A0 /* RipeningModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470DCA232A6002F500E231A0 /* RipeningModel.swift */; };
+		470DCA262A60035C00E231A0 /* RipeningData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470DCA252A60035C00E231A0 /* RipeningData.swift */; };
+		47135D1C2A5C3C3D00380688 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47135D1B2A5C3C3D00380688 /* HeaderView.swift */; };
+		472415862A5D2E00008BE43F /* HeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472415852A5D2E00008BE43F /* HeaderModel.swift */; };
+		472415882A5D2EA4008BE43F /* HeaderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472415872A5D2EA4008BE43F /* HeaderData.swift */; };
+		4724158A2A5D34D7008BE43F /* DishesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472415892A5D34D7008BE43F /* DishesView.swift */; };
+		47930C602A5D51E90059D55C /* FactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47930C5F2A5D51E90059D55C /* FactsView.swift */; };
+		47930C622A5D55390059D55C /* FactsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47930C612A5D55390059D55C /* FactsModel.swift */; };
+		47930C642A5D55880059D55C /* FactData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47930C632A5D55880059D55C /* FactData.swift */; };
+		47930C662A5D584A0059D55C /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47930C652A5D584A0059D55C /* RecipeModel.swift */; };
+		47930C682A5D58A90059D55C /* RecipeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47930C672A5D58A90059D55C /* RecipeData.swift */; };
+		47930C6A2A5D58F40059D55C /* RecipeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47930C692A5D58F40059D55C /* RecipeCardView.swift */; };
+		47930C6C2A5D610E0059D55C /* RecipeRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47930C6B2A5D610E0059D55C /* RecipeRatingView.swift */; };
+		47930C6E2A5D619B0059D55C /* RecipeCookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47930C6D2A5D619B0059D55C /* RecipeCookingView.swift */; };
+		47930C702A5D62490059D55C /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47930C6F2A5D62490059D55C /* RecipeDetailView.swift */; };
+		47A59B6D2A542AAB009378B8 /* AvocadosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A59B6C2A542AAB009378B8 /* AvocadosView.swift */; };
+		47A59B6F2A542AD4009378B8 /* RipeningStagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A59B6E2A542AD4009378B8 /* RipeningStagesView.swift */; };
+		47A59B712A542B08009378B8 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A59B702A542B08009378B8 /* SettingsView.swift */; };
+		47A59B732A542B48009378B8 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A59B722A542B48009378B8 /* AppView.swift */; };
+		47F27EDE2A541A1400A9F23A /* AvocadoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F27EDD2A541A1400A9F23A /* AvocadoAppApp.swift */; };
+		47F27EE02A541A1400A9F23A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F27EDF2A541A1400A9F23A /* ContentView.swift */; };
+		47F27EE22A541A1500A9F23A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47F27EE12A541A1500A9F23A /* Assets.xcassets */; };
+		47F27EE52A541A1500A9F23A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47F27EE42A541A1500A9F23A /* Preview Assets.xcassets */; };
+		47F27EEC2A5424D700A9F23A /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47F27EEB2A5424D700A9F23A /* Launch Screen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		470DCA212A5FFB2600E231A0 /* RipeningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningView.swift; sourceTree = "<group>"; };
+		470DCA232A6002F500E231A0 /* RipeningModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningModel.swift; sourceTree = "<group>"; };
+		470DCA252A60035C00E231A0 /* RipeningData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningData.swift; sourceTree = "<group>"; };
+		47135D1B2A5C3C3D00380688 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		472415852A5D2E00008BE43F /* HeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderModel.swift; sourceTree = "<group>"; };
+		472415872A5D2EA4008BE43F /* HeaderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderData.swift; sourceTree = "<group>"; };
+		472415892A5D34D7008BE43F /* DishesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishesView.swift; sourceTree = "<group>"; };
+		47930C5F2A5D51E90059D55C /* FactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsView.swift; sourceTree = "<group>"; };
+		47930C612A5D55390059D55C /* FactsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsModel.swift; sourceTree = "<group>"; };
+		47930C632A5D55880059D55C /* FactData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactData.swift; sourceTree = "<group>"; };
+		47930C652A5D584A0059D55C /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
+		47930C672A5D58A90059D55C /* RecipeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeData.swift; sourceTree = "<group>"; };
+		47930C692A5D58F40059D55C /* RecipeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCardView.swift; sourceTree = "<group>"; };
+		47930C6B2A5D610E0059D55C /* RecipeRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeRatingView.swift; sourceTree = "<group>"; };
+		47930C6D2A5D619B0059D55C /* RecipeCookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCookingView.swift; sourceTree = "<group>"; };
+		47930C6F2A5D62490059D55C /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		47A59B6C2A542AAB009378B8 /* AvocadosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadosView.swift; sourceTree = "<group>"; };
+		47A59B6E2A542AD4009378B8 /* RipeningStagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningStagesView.swift; sourceTree = "<group>"; };
+		47A59B702A542B08009378B8 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		47A59B722A542B48009378B8 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		47F27EDA2A541A1400A9F23A /* AvocadoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvocadoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47F27EDD2A541A1400A9F23A /* AvocadoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadoAppApp.swift; sourceTree = "<group>"; };
+		47F27EDF2A541A1400A9F23A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		47F27EE12A541A1500A9F23A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47F27EE42A541A1500A9F23A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		47F27EEB2A5424D700A9F23A /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47F27ED72A541A1400A9F23A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47A59B672A5429E4009378B8 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				472415872A5D2EA4008BE43F /* HeaderData.swift */,
+				47930C632A5D55880059D55C /* FactData.swift */,
+				47930C672A5D58A90059D55C /* RecipeData.swift */,
+				470DCA252A60035C00E231A0 /* RipeningData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		47A59B682A5429EE009378B8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				472415852A5D2E00008BE43F /* HeaderModel.swift */,
+				47930C612A5D55390059D55C /* FactsModel.swift */,
+				47930C652A5D584A0059D55C /* RecipeModel.swift */,
+				470DCA232A6002F500E231A0 /* RipeningModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		47A59B692A5429F6009378B8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				47F27EDF2A541A1400A9F23A /* ContentView.swift */,
+				47A59B6C2A542AAB009378B8 /* AvocadosView.swift */,
+				47A59B6E2A542AD4009378B8 /* RipeningStagesView.swift */,
+				47A59B702A542B08009378B8 /* SettingsView.swift */,
+				47135D1B2A5C3C3D00380688 /* HeaderView.swift */,
+				472415892A5D34D7008BE43F /* DishesView.swift */,
+				47930C5F2A5D51E90059D55C /* FactsView.swift */,
+				47930C692A5D58F40059D55C /* RecipeCardView.swift */,
+				47930C6B2A5D610E0059D55C /* RecipeRatingView.swift */,
+				47930C6D2A5D619B0059D55C /* RecipeCookingView.swift */,
+				47930C6F2A5D62490059D55C /* RecipeDetailView.swift */,
+				470DCA212A5FFB2600E231A0 /* RipeningView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		47F27ED12A541A1400A9F23A = {
+			isa = PBXGroup;
+			children = (
+				47F27EDC2A541A1400A9F23A /* AvocadoApp */,
+				47F27EDB2A541A1400A9F23A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47F27EDB2A541A1400A9F23A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47F27EDA2A541A1400A9F23A /* AvocadoApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47F27EDC2A541A1400A9F23A /* AvocadoApp */ = {
+			isa = PBXGroup;
+			children = (
+				47A59B672A5429E4009378B8 /* Data */,
+				47A59B682A5429EE009378B8 /* Model */,
+				47A59B692A5429F6009378B8 /* View */,
+				47F27EDD2A541A1400A9F23A /* AvocadoAppApp.swift */,
+				47A59B722A542B48009378B8 /* AppView.swift */,
+				47F27EE12A541A1500A9F23A /* Assets.xcassets */,
+				47F27EEB2A5424D700A9F23A /* Launch Screen.storyboard */,
+				47F27EE32A541A1500A9F23A /* Preview Content */,
+			);
+			path = AvocadoApp;
+			sourceTree = "<group>";
+		};
+		47F27EE32A541A1500A9F23A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				47F27EE42A541A1500A9F23A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47F27ED92A541A1400A9F23A /* AvocadoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47F27EE82A541A1500A9F23A /* Build configuration list for PBXNativeTarget "AvocadoApp" */;
+			buildPhases = (
+				47F27ED62A541A1400A9F23A /* Sources */,
+				47F27ED72A541A1400A9F23A /* Frameworks */,
+				47F27ED82A541A1400A9F23A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AvocadoApp;
+			productName = AvocadoApp;
+			productReference = 47F27EDA2A541A1400A9F23A /* AvocadoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47F27ED22A541A1400A9F23A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					47F27ED92A541A1400A9F23A = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 47F27ED52A541A1400A9F23A /* Build configuration list for PBXProject "AvocadoApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47F27ED12A541A1400A9F23A;
+			productRefGroup = 47F27EDB2A541A1400A9F23A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47F27ED92A541A1400A9F23A /* AvocadoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47F27ED82A541A1400A9F23A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F27EEC2A5424D700A9F23A /* Launch Screen.storyboard in Resources */,
+				47F27EE52A541A1500A9F23A /* Preview Assets.xcassets in Resources */,
+				47F27EE22A541A1500A9F23A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47F27ED62A541A1400A9F23A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47A59B712A542B08009378B8 /* SettingsView.swift in Sources */,
+				47930C6C2A5D610E0059D55C /* RecipeRatingView.swift in Sources */,
+				470DCA242A6002F500E231A0 /* RipeningModel.swift in Sources */,
+				47F27EE02A541A1400A9F23A /* ContentView.swift in Sources */,
+				47A59B732A542B48009378B8 /* AppView.swift in Sources */,
+				470DCA262A60035C00E231A0 /* RipeningData.swift in Sources */,
+				47135D1C2A5C3C3D00380688 /* HeaderView.swift in Sources */,
+				47A59B6F2A542AD4009378B8 /* RipeningStagesView.swift in Sources */,
+				47930C622A5D55390059D55C /* FactsModel.swift in Sources */,
+				47A59B6D2A542AAB009378B8 /* AvocadosView.swift in Sources */,
+				47930C662A5D584A0059D55C /* RecipeModel.swift in Sources */,
+				472415862A5D2E00008BE43F /* HeaderModel.swift in Sources */,
+				472415882A5D2EA4008BE43F /* HeaderData.swift in Sources */,
+				47930C6E2A5D619B0059D55C /* RecipeCookingView.swift in Sources */,
+				470DCA222A5FFB2600E231A0 /* RipeningView.swift in Sources */,
+				4724158A2A5D34D7008BE43F /* DishesView.swift in Sources */,
+				47930C602A5D51E90059D55C /* FactsView.swift in Sources */,
+				47930C6A2A5D58F40059D55C /* RecipeCardView.swift in Sources */,
+				47930C682A5D58A90059D55C /* RecipeData.swift in Sources */,
+				47F27EDE2A541A1400A9F23A /* AvocadoAppApp.swift in Sources */,
+				47930C702A5D62490059D55C /* RecipeDetailView.swift in Sources */,
+				47930C642A5D55880059D55C /* FactData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		47F27EE62A541A1500A9F23A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47F27EE72A541A1500A9F23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47F27EE92A541A1500A9F23A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AvocadoApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 3SDDM7NU4G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dedicave.AvocadoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47F27EEA2A541A1500A9F23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AvocadoApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 3SDDM7NU4G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dedicave.AvocadoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47F27ED52A541A1400A9F23A /* Build configuration list for PBXProject "AvocadoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47F27EE62A541A1500A9F23A /* Debug */,
+				47F27EE72A541A1500A9F23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47F27EE82A541A1500A9F23A /* Build configuration list for PBXNativeTarget "AvocadoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47F27EE92A541A1500A9F23A /* Debug */,
+				47F27EEA2A541A1500A9F23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47F27ED22A541A1400A9F23A /* Project object */;
+}
