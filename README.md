@@ -14,7 +14,7 @@ The app showcases avocado recipes, nutritional information, ripening stages, and
 
 | Recipe Details | Ripening Guide | Settings |
 |---------------|----------------| ----------|
-| <img src="Screenshots/becon-toast.png" width="280"> | <img src="Screenshots/stage.png" width="280"> | <img src="Screenshots/settings.png" width="280"> |
+| <img src="Screenshots/bacon-toast.png" width="280"> | <img src="Screenshots/stage.png" width="280"> | <img src="Screenshots/settings.png" width="280"> |
 
 
 ---
